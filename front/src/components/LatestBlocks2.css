@@ -1,0 +1,40 @@
+.LatestBlocks {
+    text-align: center;
+}
+
+.LatestBlocks tr td{
+    padding: 9px;
+}
+.hash{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 15rem;
+}
+.title{
+    font-weight: bold;
+}
+.title span{
+    font-size: 15px;
+    font-weight: 100;
+    color: gray;
+    vertical-align: text-top;
+}
+.Block tr td{
+    text-align: left;
+    padding: 7px;
+}
+.Block{
+    border: 1px solid gray;
+}
+.tx{
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+}
+.LatestTransactions{
+    text-align: center;
+}
+.LatestTransactions tr td{
+    padding: 9px;
+}

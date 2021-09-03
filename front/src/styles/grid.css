@@ -1,0 +1,25 @@
+.gridcontainer {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 4fr;
+}
+.gridone {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: auto;
+}
+
+.gridtwo {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 2fr 1fr;
+}
+.highcharts-point-down {
+    fill: #0000ff;
+    stroke: #0000ff;
+}
+
+.highcharts-point-up {
+    fill: #ff0000;
+    stroke: #ff0000;
+}
